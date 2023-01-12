@@ -1,0 +1,45 @@
+body {
+    background: lightgray;
+    margin: 0;
+}
+.parrafo-1 {
+    max-width: 40rem;
+
+}
+
+.parrafo-2 {
+    max-width: 40rem;
+    min-width: 20rem;
+}
+/*ejemplo con 50% of the display*/
+.parrafo-3 {
+    width: 50vw;
+    height: 100vh;
+    background: #ffa600;
+    color: white;
+}
+
+/*ejemplo con 100% of the display*/
+.parrafo-3 {
+    width: 100vw;
+    height: 100vh;
+    background: #ffa600;
+    color: white;
+}
+
+.link {
+    background: red;
+    width: 40rem;
+    height: 20rem;
+}
+.padre {
+    width: 75%;
+    height: 30rem;
+    background: blue;
+}
+
+.hijo {
+    width: 100%;
+    height: 30rem;
+    background: green;
+}

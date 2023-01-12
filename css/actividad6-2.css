@@ -1,0 +1,62 @@
+body {
+    background: ghostwhite;
+    margin: 0;
+}
+
+@font-face {
+    font-family:"Header1";
+    src: url("fonts/Poppins-Bold.woff2"); format("woff2")
+    font-display: swap;
+}
+
+@font-face {
+    font-family:"Header2";
+    src: url("fonts/Poppins-Medium.woff2"); format("woff2")
+    font-display: swap;
+}
+
+@font-face {
+    font-family:"Paragraph1";
+    src: url("fonts/Poppins-Regular.woff2"); format("woff2")
+    font-display: swap;
+}
+
+.header1 {
+    width: 50vw;
+    color: #2a62bc;
+    font-family: Poppins-Bold, sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.header2 {
+    width: 50vw;
+    color: slategrey;
+    font-family: Poppins-Medium, sans-serif;
+    font-size: 1.2rem;
+}
+
+.paragraph1 {
+    max-width: 40rem;
+    color: slategrey;
+    font-family: Poppins-Regular, sans-serif;
+    font-size: 0.9rem;
+
+}
+
+.highlight-text {
+    color: darkblue;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.blueviolet {
+    color: white;
+}
+
+.word {
+    background-color: darkblue;
+    color: #FFFFFF;
+}
